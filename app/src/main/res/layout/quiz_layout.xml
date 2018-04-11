@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.planetsquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question1"  />
+
+        <CheckBox
+            android:id="@+id/q1_ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/saturn"
+            android:textSize="@dimen/lg_text" />
+
+        <CheckBox
+            android:id="@+id/q1_ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/earth"
+            android:textSize="@dimen/lg_text" />
+
+        <CheckBox
+            android:id="@+id/q1_ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/mars"
+            android:textSize="@dimen/lg_text" />
+
+        <CheckBox
+            android:id="@+id/q1_ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/uranus"
+            android:textSize="@dimen/lg_text" />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question2" />
+
+        <RadioGroup
+            android:id="@+id/q2_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q2_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/mercury" />
+
+            <RadioButton
+                android:id="@+id/q2_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/jupiter" />
+
+            <RadioButton
+                android:id="@+id/q2_ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/saturn" />
+
+            <RadioButton
+                android:id="@+id/q2_ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/neptune" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            android:id="@+id/q3_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/venus" />
+
+            <RadioButton
+                android:id="@+id/q3_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/mars" />
+
+            <RadioButton
+                android:id="@+id/q3_ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/earth" />
+
+            <RadioButton
+                android:id="@+id/q3_ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/mercury" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question4" />
+
+        <CheckBox
+            android:id="@+id/q4_ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/jupiter"
+            android:textSize="@dimen/lg_text" />
+
+        <CheckBox
+            android:id="@+id/q4_ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/venus"
+            android:textSize="@dimen/lg_text" />
+
+        <CheckBox
+            android:id="@+id/q4_ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/saturn"
+            android:textSize="@dimen/lg_text" />
+
+        <CheckBox
+            android:id="@+id/q4_ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/earth"
+            android:textSize="@dimen/lg_text" />
+
+        <!-- Question 5 -->
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question5" />
+
+        <RadioGroup
+            android:id="@+id/q5_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q5_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/titan" />
+
+            <RadioButton
+                android:id="@+id/q5_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/ganymede" />
+
+            <RadioButton
+                android:id="@+id/q5_ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/europa" />
+
+            <RadioButton
+                android:id="@+id/q5_ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/hyperion" />
+        </RadioGroup>
+
+        <!-- Question 6 -->
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question6" />
+
+        <EditText
+            android:id="@+id/q6_ans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:hint="@string/question_6_hint"
+            android:inputType="number" />
+
+        <!-- Question 7 -->
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question7" />
+
+        <RadioGroup
+            android:id="@+id/q7_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q7_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/mercury" />
+
+            <RadioButton
+                android:id="@+id/q7_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/venus" />
+
+            <RadioButton
+                android:id="@+id/q7_ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/jupiter" />
+
+            <RadioButton
+                android:id="@+id/q7_ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/mars" />
+        </RadioGroup>
+
+        <!-- Question 8 -->
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:textSize="@dimen/lg_text"
+            android:text="@string/question8" />
+
+        <RadioGroup
+            android:id="@+id/q8_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q8_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/q8_ans1" />
+
+            <RadioButton
+                android:id="@+id/q8_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/q8_ans2" />
+
+            <RadioButton
+                android:id="@+id/q8_ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/q8_ans3" />
+
+            <RadioButton
+                android:id="@+id/q8_ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lg_text"
+                android:text="@string/q8_ans4" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/std_margin"
+            android:layout_marginLeft="@dimen/std_margin"
+            android:layout_marginRight="@dimen/std_margin"
+            android:layout_marginStart="@dimen/std_margin"
+            android:layout_marginTop="@dimen/std_margin"
+            android:layout_gravity="center"
+            android:onClick="checkAnswers"
+            android:text="@string/submit_answers" />
+    </LinearLayout>
+</ScrollView>
